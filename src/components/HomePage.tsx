@@ -28,7 +28,7 @@ const HomePage: FC<HomePageProps> = () => {
   }
 
   return (
-    <Wrapper>
+    <Wrapper data-testid="HomePage">
       <h1>Welcome {visitor}</h1>
       <input placeholder="enter name" ref={inputRef} name={'name'} type="text"></input>
       <button onClick={handleClick}>UPDATE</button>
