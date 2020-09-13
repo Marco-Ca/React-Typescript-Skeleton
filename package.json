@@ -21,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
+    "integration-test:local": "CYPRESS_baseUrl=http://localhost:3000 cypress run --config video=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^5.1.0"
   }
 }
