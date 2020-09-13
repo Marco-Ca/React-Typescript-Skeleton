@@ -1,0 +1,9 @@
+{
+  "integrationFolder": "cypress/integration",
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  }
+}
